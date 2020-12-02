@@ -1,0 +1,107 @@
+/* * * * * * * * * * TAG SHEETS * * * * * * * * * */
+
+body {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    background-color: #19a1ad;
+    font-family: 'Kumbh Sans';
+}
+
+/* * * * * * * * * * CLASSES SHEETS * * * * * * * * * */
+
+.big {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+.card {
+    border-radius     : 18px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin: auto;
+    overflow: hidden;
+    width: 350px;
+    height: 375px;
+}
+
+.img-big-top {
+    margin: 0;
+    position: absolute;
+    bottom: 40%;
+    right: 50%;
+}
+
+.img-big-bottom {
+    position: absolute;
+    top: 50%;
+    right: -16%;
+}
+
+.card-head {
+    position: absolute;
+    top: 0;
+}
+
+.avatar {
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid white;
+    top: 87px;
+}
+
+.name {
+    line-height: 2;
+    position: relative;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    top: 50%;
+    height: 30px;
+}
+
+.age {
+    padding-left: 5px;
+    color: hsl(227, 10%, 46%);
+    font-weight: lighter;
+}
+
+.card-footer {
+    border-top: 1px solid #f2f2f2;
+    position: absolute;
+    width: 350px;
+    top: 75%;
+}
+
+.first-row {
+    margin: 25px auto 10px auto;
+    font-weight: 700;
+}
+
+.followers {
+    margin: auto 25px;
+    display: inline-block;
+
+}
+
+.likes {
+    margin: auto 25px;
+    display: inline-block;
+
+}
+
+.photos {
+    margin: auto 25px;
+    display: inline-block;
+
+}
+
+.second-row {
+    padding-top: 25px;
+    color: hsl(227, 10%, 46%);
+    font-size: 12px;
+    font-weight: lighter;
+}
